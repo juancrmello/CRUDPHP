@@ -1,0 +1,46 @@
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",sans-serif;
+	background: url(Motherboard_Wallpaper001.jpg) no-repeat;
+
+}
+.box{
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #191919;
+	text-align: center;
+}
+.box table tr td a{
+	position: center;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100px;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	border: 2px solid #3498db;
+
+}
+div h1 {
+	color: white;
+
+}
+.box table tr td a:hover{
+	border: 2px solid #2ecc71;
+
+
+}
+.box table tr{
+	display: inline;
+	margin-right: 100px;
+}
